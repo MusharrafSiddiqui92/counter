@@ -12,8 +12,8 @@ const Counter = () => {
         setCount(0)
     }
   return (
-     <div className="container-fluid d-flex justify-content-center align-items-center" style={{height:'99vh', background:"22C1C3",background:"linear-gradient(85deg,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%)"}}>
-        <div className="container w-25  rounded-3" style={{border:'2px solid white',height:'auto',paddingBottom:"5px",backgroundImage: `url('/images/2.jpg')`,backgroundSize: 'cover',
+     <div className="container-fluid d-flex justify-content-center align-items-center" style={{height:'99vh', backgroundColor:"#22C1C3",background:"linear-gradient(85deg,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%)"}}>
+        <div className="container w-75  rounded-3" style={{border:'2px solid white',height:'auto',paddingBottom:"5px",backgroundImage: `url('./images/2.jpg')`,backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',}}>
           <div className="container rounded-circle mt-4 text-center p-3" style={{height:'140px',border:'5px solid white',width:'140px'}}>
